@@ -11,10 +11,10 @@ namespace _111_1PC4
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int i_Age = -40, i_Sex = 0;
+            int i_Age = 40, i_Sex = 0;
             if (i_Sex == 0)
             {
-                if (i_Age >= -50)
+                if (i_Age >= 50)
                 {
                     Response.Write("壯年女人的程式執行程式碼區域");
                 }
@@ -25,7 +25,7 @@ namespace _111_1PC4
             }
             else if (i_Sex == 1)
             {
-                if (i_Age >= -50)
+                if (i_Age >= 50)
                 {
                     Response.Write("壯年男人的程式執行程式碼區域");
                 }

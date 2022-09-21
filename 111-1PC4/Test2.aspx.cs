@@ -11,7 +11,7 @@ namespace _111_1PC4
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int i_Age = -40, i_Sex = 0;
+            int i_Age = 40, i_Sex = 0;
             if (!(!(i_Age >= 50) || !(i_Sex == 1)))
             {
                 Response.Write("壯年男人的程式執行程式碼區域");
